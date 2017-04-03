@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Creating New Information with Slots &#8212; Aristotle Metadata Registry User Documentation 1.5.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/solar.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.5.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Using the Aristotle API" href="../api/index.html" />
+    <link rel="prev" title="Using wizards to link metadata to create a data element" href="data_element_wizard.html" /><link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<link href="../_static/solarized-dark.css" rel="stylesheet">
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../api/index.html" title="Using the Aristotle API"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="data_element_wizard.html" title="Using wizards to link metadata to create a data element"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Aristotle Metadata Registry User Documentation 1.5.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Creating and editing metadata</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../meta/index.html">How to read this document</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finding_content/index.html">Searching for content</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">Features of Aristotle-MDR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../users_roles/index.html">Roles within the registry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">Getting help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dashboard.html">The Dashboard</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Creating and editing metadata</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="wizards.html">Using wizards to create metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="editing_metadata_from_item_page.html">Editing existing metadata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="editing_metadata_using_admin.html">Editing metadata using administrator pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_element_wizard.html">Using wizards to link metadata to create a data element</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Creating New Information with Slots</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api/index.html">Using the Aristotle API</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="data_element_wizard.html"
+                        title="previous chapter">Using wizards to link metadata to create a data element</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../api/index.html"
+                        title="next chapter">Using the Aristotle API</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/creating_and_editing/adding_new_info_with_slots.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="creating-new-information-with-slots">
+<h1>Creating New Information with Slots<a class="headerlink" href="#creating-new-information-with-slots" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Slots can only be created when the Aristotle Slots add-on is installed.</p>
+</div>
+<p>Slots are a ways of adding extra detail to metadata beyond what&#8217;s available in the standard or Aristotle.
+Allows you to add extra context specific to a registry that describes a particular use.</p>
+<p>The following steps are ways to capture this infomation for an existing metadata item.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Only users with editing privledges for that metadata can create and edit slots for it.</p>
+</div>
+<p>To get started</p>
+<img alt="Screenshot of a person metadata item" src="../_images/screenshot-creating_and_editing--adding_new_info_with_slots-0.png" />
+<img alt="Edit screen" src="../_images/screenshot-creating_and_editing--adding_new_info_with_slots-1.png" />
+<img alt="Edit screen" src="../_images/screenshot-creating_and_editing--adding_new_info_with_slots-2.png" />
+<img alt="Edit screen" src="../_images/screenshot-creating_and_editing--adding_new_info_with_slots-3.png" />
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../api/index.html" title="Using the Aristotle API"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="data_element_wizard.html" title="Using wizards to link metadata to create a data element"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Aristotle Metadata Registry User Documentation 1.5.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Creating and editing metadata</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, Aristotle Metadata Registry.
+    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.5.4.Theme by <a href="http://github.com/vkvn">vkvn</a>
+    </div>
+  </body>
+</html>
